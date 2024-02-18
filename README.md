@@ -1,5 +1,5 @@
-# Unsupervised Domain Adaptation for Real-World Scenario of SAMMiCA
-This repository is the official implementation of SAMMiCA scenario Unsupervised Domain Adaptation for Tunnel (ChangeSIM dataset).
+# SAMMiCA Scenario 1 Scene Change Detection
+This repository is the official implementation of SAMMiCA scenario Scene Change Detection for Tunnel (ChangeSIM dataset).
 
 
 ## Requirements
@@ -7,23 +7,6 @@ This repository is the official implementation of SAMMiCA scenario Unsupervised 
 To install requirements:
 
 - [PyTorch](https://pytorch.org/) (An open source deep learning platform)
-
-
-## Training
-
-To train the proposed UDA method
-
-```train
-python train_CUDA.py
-```
-
-## Evaluation
-
-To evaluate my model on CityScapes, run:
-
-```eval
-python test_CUDA.py
-```
 
 
 ## Pre-trained Models
